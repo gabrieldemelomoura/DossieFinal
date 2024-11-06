@@ -5,122 +5,154 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dossiê - Tragédia de Brumadinho G1</title>
-    <link rel="stylesheet" href="style.css">
-   
+    
+    <!-- Adicionando Bootstrap via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos adicionais -->
+    <style>
+        body {
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #f01717;
+            color: white;
+            padding: 15px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #f01717;
+            color: white;
+            margin-top: 20px;
+        }
+        .imagem {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        @media (max-width: 480px){
+        img{
+            width: 100%;
+        }
+
+        }
+    </style>
 </head>
 <body>
- 
-    <header>
+    <header class="text-center">
         <h1>Dossiê da Tragédia de Brumadinho (G1)</h1>
     </header>
- 
-    <nav>
-        <a href="#local">Local e Contexto</a>
-        <a href="#rompimento">O Rompimento da barragem</a>
-        <a href="composição">Composição da barragem</a>
-        <a href="#causa do rompimento>">Causa do rompimento</a>
-        <a href="#consequencias-humanas">Consequências humanas e impactos</a>
-        <a href="#repercução">Repercução social</a>
-        <a href="#investigacoes">Investigações e Responsabilização</a>
-        <a href="#consequencias-sociais">Consequências Legais e Sociais</a>
-        <a href="#resposta-humanitaria">Resposta Humanitária</a>
-        <a href="#memoria">Memória e Reparação</a>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Dossiê Brumadinho</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#local">Local e Contexto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#rompimento">O Rompimento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#composição">Composição</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#causa">Causa do Rompimento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#consequencias-humanas">Consequências Humanas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#repercução">Repercussão Social</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#investigacoes">Investigação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#consequencias-sociais">Consequências Sociais</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resposta-humanitaria">Resposta Humanitária</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#memoria">Memória</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
- 
-    <section id="local">
-        <h2>5 anos do rompimento da barragem em Brumadinho e as dificuldades para reparação e justiça</h2>
-        <h2>1. Local e Contexto</h2>
-        <p>Brumadinho, em Minas Gerais, foi palco de uma das maiores tragédias ambientais do Brasil. A barragem B1 da Vale se rompeu em 2019, liberando milhões de metros cúbicos de rejeitos de mineração.
-            O rompimento da barragem de Brumadinho aconteceu de forma repentina, motivo pelo qual suas consequências foram catastróficas. Segundo reportagens sobre o ocorrido, a empresa de engenharia alemã, chamada TÜV SÜD, contratada pela Vale, havia emitido um parecer garantindo a estabilidade da barragem de Brumadinho apenas quatro meses antes do seu rompimento. Portanto, não houve alerta prévio de que algo dessa magnitude pudesse acontecer, e não houve tempo para a evacuação da área.
-            Como mencionamos, o rompimento se deu pouco após o meio-dia, horário em que grande parte dos funcionários da Vale se encontrava no refeitório da mineradora. A destruição da barragem de Brumadinho resultou em uma avalanche de lama que tomou parte da própria empresa que operava no local, onde estavam quase 430 pessoas, a comunidade de Vila Ferteco e parte da zona rural do município. Estima-se que, no dia do rompimento, a lama avançou uma distância de cinco quilômetros. Poucos dias depois, havia chegado a nove quilômetros desde o local do ocorrido."
-            Veja mais sobre "Rompimento da barragem de Brumadinho (MG)" em:
-            <a href="https://brasilescola.uol.com.br/biologia/rompimento-barragem-brumadinho.htm" target="_blank">https://brasilescola.uol.com.br/biologia/rompimento-barragem-brumadinho.htm</a>
- 
-        </p>
-        <img src="https://s2-g1.glbimg.com/yjZDBxSpU6MzJa6RyYbI6ABDFoU=/0x0:3174x2116/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/I/w/meXfV8QVCa40GSQazHNA/ap19026698969468.jpg"  width="300" height="200">
-    </section>
- 
-   
-    <section id="rompimento">
-        <h2>2. O Rompimento da Barragem</h2>
-        <p>No dia 25 de janeiro de 2019, às 12h28, a barragem da Mina Córrego do Feijão, da mineradora Vale, em Brumadinho, se rompeu, causando a morte de 272 pessoas e espalhando resíduos de minério pela bacia do Rio Paraopeba. Em 2023, a tragédia completa quatro anos. A data foi instituída como Dia de Luto em Memória das Vítimas do Rompimento da Barragem 1 da Mina do Córrego do Feijão, pela Lei 23.590, de 2020.
-            Nesta quarta-feira (25/1/23), a Assembleia Legislativa de Minas Gerais (ALMG) rendeu homenagens às vítimas. As bandeiras de Minas Gerais e de Belo Horizonte foram hasteadas a meio mastro e foi depositada uma coroa de flores em frente ao memorial que traz os nomes de todas as vítimas.
-            A Assembleia atuou na apuração das causas do rompimento da barragem, na elaboração de leis mais rigorosas para licenciamentos de empreendimentos minerários em Minas Gerais e na busca de medidas de assistência e apoio às vítimas.
- 
-            A Comissão Parlamentar de Inquérito (CPI) da Barragem de Brumadinho reuniu 149 depoimentos, realizou 32 reuniões e duas visitas e aprovou centenas de requerimentos a autoridades e órgãos públicos. Em seu relatório final, pediu o indiciamento da Vale e de 13 pessoas pelo colapso da barragem da Mina Córrego do Feijão e fez uma série de recomendações aos órgãos públicos.
-            À época, a Assembleia lançou um hotsite com todos os conteúdos relativos ao trabalho da CPI e das demais comissões da ALMG na discussão e apuração dos fatos relacionados à tragédia. Foi publicada, também, uma série especial da TV Assembleia que marcou um ano do rompimento. O podcast Politiza trouxe informações sobre o trabalho e as recomendações da CPI.
- 
-           
-            CONFIRA AS DEMAIS INFORMAÇÕES EM:
-        <a href="https://www.almg.gov.br/comunicacao/noticias/arquivos/Rompimento-da-barragem-da-Vale-em-Brumadinho-completa-quatro-anos/#:~:text=No%20dia%2025%20de%20janeiro,a%20tragédia%20completa%20quatro%20anos%20." target="_blank">https://www.almg.gov.br/comunicacao/noticias/arquivos/Rompimento-da-barragem-da-Vale-em-Brumadinho-completa-quatro-anos/#:~:text=No%20dia%2025%20de%20janeiro,a%20tragédia%20completa%20quatro%20anos%20.</a>
- 
-        </p>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHWn306rfwgTJFafE908d-1vQTuow29CpsBQ&s"  width="300" height="200">
-    </section>
- 
-    <section id="composição">
-        <h2>-COMPOSIÇÃO DA BARRAGEM</h2>
-        <img src="https://g3i5r4x7.rocketcdn.me/wp-content/uploads/2019/02/a-barragem-de-rejeito-e-o-desastre-ambiental-e-hora-de-mudar-os-conceitos-2.jpg"  width="600" height="300">
-    </section>
- 
-    <section id="causa do rompimento">
-        <h2>3. Causa do Rompimento</h2>
-        <p>Um estudo da Universidade Politécnica da Catalunha, divulgado pelo Ministério Público Federal (MPF) em 2021, apontou que a causa do rompimento foi a liquefação dos rejeitos durante uma perfuração na barragem. Durante o procedimento, os rejeitos sólidos passaram a se comportar como fluídos e sobrecarregaram a estrutura.</p>
-    </section>
-   
-    <section id="consequencias-humanas">
-        <h2>4. Consequências Humanas e impactos</h2>
-        <p>Com 272 mortes confirmadas, o desastre deixou um impacto devastador nas famílias das vítimas e trabalhadores locais, além de pessoas desaparecidas até hoje.</p>
-       
-    </section>
- 
-    <section id="repercução">
-        <h2>5. Repercução social</h2>
-        <p>A tragédia impactou profundamente a comunidade local, que perdeu vidas e meios de subsistência.
-            Muitas pessoas ainda lutam por compensações e pela recuperação de suas vidas.</p>
-    </section>
- 
-    <section id="investigacoes">
-        <h2>6. Investigações e Responsabilização</h2>
-        <p>A Vale, proprietária da barragem, foi responsabilizada pelo desastre, com executivos investigados e multados. Bilhões foram pagos em indenizações.</p>
-    </section>
- 
-    <section id="consequencias-sociais">
-        <h2>7. Consequências Legais e Sociais</h2>
-        <p>O desastre de Brumadinho levou a mudanças nas leis de mineração, incluindo a proibição de novas barragens do tipo alteamento a montante e maior fiscalização. A Vale S.A. enfrentou críticas severas e processos judiciais. Executivos da empresa foram acusados de homicídio culposo e de crimes ambientais.
-            O desastre gerou discussões sobre a segurança das barragens no Brasil, levando a um aumento na fiscalização.
-        </p>
-    </section>
- 
-    <section id="resposta-humanitaria">
-        <h2>8. Resposta Humanitária</h2>
-        <p>Esforços de resgate contaram com bombeiros e voluntários, enquanto indenizações e suporte psicológico foram oferecidos às famílias das vítimas.</p>
-    </section>
- 
-    <section id="memoria">
-        <h2>9. Memória e Reparação</h2>
-        <p>Memoriais e movimentos sociais buscam manter viva a memória das vítimas e promover a reparação ambiental e social em Brumadinho.
-            A Vale segue cumprindo suas obrigações de reparação e apoiando as comunidades e pessoas impactadas pelo rompimento da barragem B1, em Brumadinho. Ao longo desses quase três anos, para além do Acordo de Reparação Integral, a empresa avançou nos acordos de indenizações individuais, no processo de recuperação do meio ambiente e em ações nas áreas de infraestrutura urbana, saúde e capacitação profissional, entre outras. Desde 2019, foram desembolsados cerca de R$ 20 bilhões para promover a reparação e compensação dos danos sociais e ambientais. Esse montante considera R$ 2,6 bilhões destinados às indenizações individuais e os valores desembolsados previstos no Acordo de Reparação Integral, incluindo depósitos judiciais.
- 
-Marcelo Klein, diretor especial de Reparação e Desenvolvimento da Vale, reforça que o cuidado com as pessoas continua sendo o principal foco de atuação – e de aprendizado. “Nossas ações estruturantes têm evoluído em todos os territórios. Reconhecemos, entretanto, que insatisfações persistem, e procuramos aprender com elas. Seguimos vigilantes às necessidades dos moradores e empenhados em nossos compromissos de reparação, cuidando dos atingidos, melhorando a infraestrutura local, reativando a economia, recuperando a natureza, valorizando o turismo e respeitando a memória das vítimas”.
-        </p>
-<h1>Associação as vítimas</h1>
-<p>A atenção e cuidado com as pessoas é foco prioritário de atuação da Vale em Brumadinho, região e territórios evacuados. O principal mecanismo de apoio é o Programa Referência da Família, criado ainda em 2019 e que conta com uma equipe de profissionais especializados para prestar assistência psicossocial às pessoas que buscam esse tipo de auxílio. Cerca de 93% das famílias elegíveis aderiram ao programa até o momento, o que corresponde a aproximadamente 3.300 pessoas atendidas.
- 
-    Os valores destinados a atendimentos e tratamentos médicos e psicossociais até o momento foram de R$ 85 milhões. O montante se soma aos cerca de R$ 32 milhões repassados à Prefeitura de Brumadinho, por meio de um acordo de cooperação, para a ampliação da assistência de saúde e psicossocial no município.
-   
-    Em 2021, a Vale também ampliou a abrangência de seu programa de atenção básica de saúde de 11 para 15 municípios da região. O Ciclo Saúde, como é conhecido, ofereceu capacitação a 2.011 profissionais de saúde, além de doar 5,5 mil equipamentos para 143 Unidades Básicas de Saúde. Na frente de apoio à gestão, o programa está implementando, junto às secretarias municipais de saúde, o Sistema de Informação Geográfica (SIG) Ciclo Saúde, uma ferramenta de planejamento capaz de representar, em mapas, diversas informações relevantes para a atenção básica. O recurso permite a visualização dos indicadores de desempenho por equipe de Saúde da Família e as particularidades do território identificadas previamente pelas equipes em oficinas.
-   
-    Para ressignificação do luto, desde 2019, o projeto Semeando Esperança utiliza o bordado como meio para as mulheres contarem suas trajetórias de vida, suas vivências e a relação com o território onde vivem. De lá para cá, 73 mulheres bordaram juntas mais de 500 peças. Em outubro, parte dessa coleção chegou ao Inhotim. Durante dois meses, o museu de arte expôs 44 mandalas, 16 painéis e 18 peças variadas bordadas por alunas das três turmas do projeto.
-   
-    Do final de 2019 a setembro de 2021, 144 moradores dos bairros Córrego do Feijão, Cantagalo e Parque da Cachoeira, os mais afetados pelo rompimento, receberam qualificação profissional em construção civil e jardinagem. Além do aprendizado, oferecido pelo Instituto Yara Tupynambá, os alunos escolheram 232 moradias para serem reformadas pelo projeto e contribuíram para o plantio de 230 jardins.
-    <a href="https://vale.com/pt/w/reparacao-de-brumadinho-avanca-para-promover-recuperacao-e-compensacao-de-danos-sociais-e-ambientais" target="_blank">https://vale.com/pt/w/reparacao-de-brumadinho-avanca-para-promover-recuperacao-e-compensacao-de-danos-sociais-e-ambientais</a></p>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM02ccO9MYAE46v_x5SlYanP-qsz94rPMo5A&s"  width="500" height="300">
-    </section>
- 
+
+    <div class="container my-5">
+        <section id="local" class="mb-4">
+            <h2>1. Local e Contexto</h2>
+            <p>Brumadinho, em Minas Gerais, foi palco de uma das maiores tragédias ambientais do Brasil. A barragem B1 da Vale se rompeu em 2019, liberando milhões de metros cúbicos de rejeitos de mineração. O rompimento aconteceu de forma repentina, causando devastação. A empresa TÜV SÜD, contratada pela Vale, havia emitido um parecer que garantia a estabilidade da barragem apenas quatro meses antes do desastre.</p>
+            <p><a href="https://brasilescola.uol.com.br/biologia/rompimento-barragem-brumadinho.htm" target="_blank">Leia mais sobre o rompimento da barragem</a></p>
+            <img src="https://s2-g1.glbimg.com/yjZDBxSpU6MzJa6RyYbI6ABDFoU=/0x0:3174x2116/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/I/w/meXfV8QVCa40GSQazHNA/ap19026698969468.jpg" class="img-fluid" alt="Imagem da tragédia" width="600">
+        </section>
+
+        <section id="rompimento" class="mb-4">
+            <h2>2. O Rompimento da Barragem</h2>
+            <p>No dia 25 de janeiro de 2019, a barragem da Mina Córrego do Feijão, da mineradora Vale, em Brumadinho, se rompeu, causando a morte de 272 pessoas. Em 2023, a tragédia completou quatro anos.</p>
+            <p><a href="https://www.almg.gov.br/comunicacao/noticias/arquivos/Rompimento-da-barragem-da-Vale-em-Brumadinho-completa-quatro-anos/#:~:text=No%20dia%2025%20de%20janeiro,a%20tragédia%20completa%20quatro%20anos%20." target="_blank">Leia mais sobre as investigações e repercussão</a></p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHWn306rfwgTJFafE908d-1vQTuow29CpsBQ&s" class="img-fluid" alt="Imagem da barragem" width="600">
+        </section>
+
+        <section id="composição" class="mb-4">
+            <h2>3. Composição da Barragem</h2>
+            <img src="https://g3i5r4x7.rocketcdn.me/wp-content/uploads/2019/02/a-barragem-de-rejeito-e-o-desastre-ambiental-e-hora-de-mudar-os-conceitos-2.jpg" class="img-fluid" alt="Composição da Barragem" width="600"> 
+        </section>
+
+        <section id="causa" class="mb-4">
+            <h2>4. Causa do Rompimento</h2>
+            <p>O rompimento foi causado pela liquefação dos rejeitos durante uma perfuração na barragem. Os rejeitos sólidos se comportaram como líquidos, sobrecarregando a estrutura.</p>
+        </section>
+
+        <section id="consequencias-humanas" class="mb-4">
+            <h2>5. Consequências Humanas e Impactos</h2>
+            <p>O desastre resultou em 272 mortes confirmadas, além de um impacto devastador nas famílias das vítimas e na comunidade local.</p>
+        </section>
+
+        <section id="repercução" class="mb-4">
+            <h2>6. Repercussão Social</h2>
+            <p>A tragédia causou grande comoção, afetando profundamente a comunidade local, que ainda luta por compensações e a recuperação de suas vidas.</p>
+        </section>
+
+        <section id="investigacoes" class="mb-4">
+            <h2>7. Investigação e Responsabilização</h2>
+            <p>A mineradora Vale foi responsabilizada pelo desastre, com vários de seus executivos sendo investigados e multados, além de bilhões de reais em indenizações.</p>
+        </section>
+
+        <section id="consequencias-sociais" class="mb-4">
+            <h2>8. Consequências Legais e Sociais</h2>
+            <p>O desastre levou a mudanças nas leis de mineração, incluindo a proibição de barragens de alteamento a montante e um maior controle sobre o setor.</p>
+        </section>
+
+        <section id="resposta-humanitaria" class="mb-4">
+            <h2>9. Resposta Humanitária e Recuperação</h2>
+            <p>O governo e ONGs prestaram assistência às vítimas, fornecendo abrigo e recursos. A recuperação ambiental também é um desafio contínuo.</p>
+        </section>
+
+        <section id="memoria" class="mb-4">
+            <h2>10. Memória da Tragédia</h2>
+            <p>A memória das vítimas é mantida viva por diversos projetos e pela luta pela justiça.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM02ccO9MYAE46v_x5SlYanP-qsz94rPMo5A&s"  width="600">
+        </section>
+    </div>
+
     <footer>
-        <p>Tragédia de Brumadinho - 2019 | Dossiê Informativo</p>
+        <p>© 2024 Dossiê Brumadinho</p>
     </footer>
- 
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
